@@ -1,0 +1,8 @@
+:root {
+  --font-normal: "Open Sans", sans-serif;
+  --font-title: "Poppins", sans-serif;
+
+  --bg-color: hsl(257, 40%, 49%);
+  --primary-color: #fff;
+  --secondary-color: hsl(300, 69%, 71%);
+}
