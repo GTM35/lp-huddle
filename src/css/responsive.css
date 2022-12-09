@@ -1,2 +1,50 @@
 @media (max-width: 375px) {
+  body {
+    padding: 0 30px;
+    grid-template-rows: 10% auto 10%;
+    gap: 10px;
+    background: url("../images/bg-mobile.svg") center top no-repeat;
+    background-color: var(--bg-color);
+    background-position: cover;
+  }
+
+  header {
+    margin: 50px 0;
+  }
+
+  header .logo {
+    max-width: 150px;
+  }
+
+  main {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto auto;
+    grid-template-areas:
+      "img-area"
+      "info-area";
+    gap: 20px;
+    padding: 50px 0;
+  }
+
+  main .info-area {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  main .info-area .title {
+    font-size: 1.5rem;
+  }
+
+  main .info-area .text {
+    font-size: 1rem;
+    text-align: center;
+  }
+
+  footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 }
